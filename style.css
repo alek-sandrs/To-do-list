@@ -11,29 +11,84 @@ h1 {
 
 
 
-#poga{
+#poga {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#atvertlapu {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 250px;
-            height: 50px;
-            font-size: 25px;
-}
-#darbalapa {
+#JaunaisUzdevums {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 250px;
     height: 50px;
-    font-size: 25px;
+    font-size: 26px;
+    border-radius: 12px;
+    border: solid 1px rgb(20, 167, 64);
+    background-color: rgb(238, 219, 50);
 }
 
-#popUP {
+input#uzdevums {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: solid 1px rgb(20, 167, 64);
+}
+
+input#termins {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: solid 1px rgb(20, 167, 64);
+}
+
+#PievienotUzdevumu {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border: solid 2px rgb(20, 167, 64);
+    border-radius: 10px;
+
+}
+
+#popUp {
     display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightsteelblue;
+    font-size: 30px;
+}
+
+
+
+#form {
+    background-color: lightyellow;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid rgb(238, 219, 50);
+    width: 25%;
+}
+
+#biblioteka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.uzdevumi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(20, 167, 64);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+
+    background-color:rgb(238, 219, 50);
 }
